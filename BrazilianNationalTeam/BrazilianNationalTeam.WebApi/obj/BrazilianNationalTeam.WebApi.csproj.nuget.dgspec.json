@@ -4,6 +4,17 @@
     "D:\\ProjetosGit\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam.WebApi\\BrazilianNationalTeam.WebApi.csproj": {}
   },
   "projects": {
+    "D:\\ProjetosGit\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam.Models\\BrazilianNationalTeam.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProjetosGit\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam.Models\\BrazilianNationalTeam.Models.csproj",
+        "projectName": "BrazilianNationalTeam.Models",
+        "projectPath": "D:\\ProjetosGit\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam.Models\\BrazilianNationalTeam.Models.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "D:\\ProjetosGit\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam.WebApi\\BrazilianNationalTeam.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +37,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ProjetosGit\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam.Models\\BrazilianNationalTeam.Models.csproj": {
+                "projectPath": "D:\\ProjetosGit\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam\\BrazilianNationalTeam.Models\\BrazilianNationalTeam.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
